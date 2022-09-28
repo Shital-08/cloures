@@ -85,7 +85,7 @@ var x = (function () {
 })();
 x();
 
-
+//output: 12
 
 //Q8.
 var globalVar = "xyz";
@@ -106,6 +106,7 @@ var globalVar = "xyz";
     })(456);
 })(123);
 
+//output:
 //outerArg = 123
 //innerArg = 456
 //outerVar = a
